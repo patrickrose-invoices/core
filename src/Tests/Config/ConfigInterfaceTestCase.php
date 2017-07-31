@@ -1,8 +1,9 @@
 <?php
 
-namespace PatrickRose\Invoices\Config;
+namespace PatrickRose\Invoices\Tests\Config;
 
 use PatrickRose\Invoices\Exceptions\UnknownConfigKeyException;
+use PatrickRose\Invoices\Config\ConfigInterface;
 use PHPUnit\Framework\TestCase;
 
 abstract class ConfigInterfaceTestCase extends TestCase

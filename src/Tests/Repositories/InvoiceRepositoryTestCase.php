@@ -1,8 +1,9 @@
 <?php
 
-namespace PatrickRose\Invoices\Repositories;
+namespace PatrickRose\Invoices\Tests\Repositories;
 
 use PatrickRose\Invoices\Invoice;
+use PatrickRose\Invoices\Repositories\InvoiceRepositoryInterface;
 use PHPUnit\Framework\TestCase;
 
 abstract class InvoiceRepositoryTestCase extends TestCase

@@ -1,7 +1,8 @@
 <?php
 
-namespace PatrickRose\Invoices\Conversion;
+namespace PatrickRose\Invoices\Tests\Conversion;
 
+use PatrickRose\Invoices\Conversion\ConverterInterface;
 use PHPUnit\Framework\TestCase;
 
 abstract class ConverterInterfaceTestCase extends TestCase
